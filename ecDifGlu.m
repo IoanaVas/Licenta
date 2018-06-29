@@ -19,7 +19,7 @@ ec3 = diff(I) == p6*(G - p5)*t - p4*(I - Ib);
 cond1 = G(0) == 286;
 cond2 = X(0) == 0;
 cond3 = I(0) == 403.4;
-%cond3 = I(0) == 132.5;
+
 
 sol1 = dsolve(ec1,cond1);
 sol2 = dsolve(ec2,cond2);
